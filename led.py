@@ -17,4 +17,4 @@ except KeyboardInterrupt: #hata yakaladigimizda calisacak komut
         GPIO.output(16,False)
         print('Cikis Yapildi')
 finally:
-        GPIO.cleaup()#GPIO durumlarinin temizlenmesini sagladik
+        GPIO.cleanup()#GPIO durumlarinin temizlenmesini sagladik
